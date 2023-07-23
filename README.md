@@ -2,8 +2,7 @@
 The website FeedMe serves as a search aggregator and aims to provide latest news updates based on users' chosen topic. 
 
 ## My Solution In Action
-https://github.com/skillstartup/t1-grantry/assets/140294662/cf4226f9-fcf7-4370-9cdb-26ec6e017f12
-
+https://github.com/skillstartup/t1-grantry/assets/140294662/8103d3cf-321b-4aec-8ef6-23db45850bb0
 
 ## What I Built
 A search aggregator that retrieves news articles based on user-selected topics. The solution is web-based, responsive to various screen sizes, and displays the search results sorted by the time of release, ensuring that the latest new is always presented.
