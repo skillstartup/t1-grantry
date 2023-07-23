@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed Me!</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <nav>
+
+        <h1 class="global">Feed Me</h1>
+
+        <div class="topics">
+            <ul class="flex">
+                <li class="global" id="global">Global</li>
+                <li id="politics">Politics</li>
+                <li id="tech">Tech</li>
+                <li id="sports">Sports</li>
+                <li id="entertainment">Entertainment</li>
+            </ul>
+        </div>
+        
+
+        <div id="searchBox">
+            <input type="text" id="searchBar" placeholder="News Topics"/>
+            <button id="searchBtn" type="button">Search</button>
+        </div>
+
+    </nav>
+
+    <div id="queryTopic"></div>
+    <main id="display">
+    </main>
+
+    <template id="template">
+        
+        <div class="news-card flex">
+            <!-- open the original url in a new tab -->
+            <a id="url" target="_blank" rel="noopener noreferrer" href="">
+            <div class="card-img">
+                <img src="https://placehold.co/400x200?text=News" alt="news image">
+            </div>
+            <div class="card-text">
+                
+                <h3 id="title">News Title</h3>
+                <p id="source">Source</h6>
+                <p id="content">lorem ipsum</p>
+                
+            </div>
+            </a>
+        </div>
+        
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
