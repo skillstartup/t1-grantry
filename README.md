@@ -2,7 +2,7 @@
 The website FeedMe serves as a search aggregator and aims to provide latest news updates based on users' chosen topic. 
 
 ## My Solution In Action
-https://github.com/cincodemayo/coding-challenge-grantry/assets/119086065/89c1488c-a340-4df9-9089-603248605dd7
+https://github.com/skillstartup/t1-grantry/assets/140294662/cf4226f9-fcf7-4370-9cdb-26ec6e017f12
 
 
 ## What I Built
